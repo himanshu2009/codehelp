@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      div {
+        display: inline-block;
+        width: 200px;
+        margin: 30px;
+        height: 300px;
+        background-color: cyan;
+        display: inline-block;
+        border: 1px solid  black;
+      }
+      .container {
+        width: 100vw;
+        height: 3000px;
+        background-color: yellow;
+        border: 1px solid red;
+      }
+      #box0 {
+        position: fixed;
+      }
+
+      #box1 {
+        position: sticky;
+        top:10px;
+        left:50px;
+
+      }
+      #box2 {
+        position: relative;
+       
+      }
+
+      #box3 {
+       
+        position: absolute;
+        right:30px;
+        bottom :7px;
+        
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box0" id="box0">hii am fixed block</div>
+      <div class="box1" id="box1">hii am box1 and sticky</div>
+      <div class="box2" id="box2">hii am box 2</div>
+      <div class="box3" id="box3">hii am box3</div>
+    </div>
+  </body>
+</html>

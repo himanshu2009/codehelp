@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100vw;
+        height: 3000px;
+        background-color: yellow;
+        border: 1px solid red;
+      }
+      div.box0 {
+        position: fixed;
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        display: inline-block;
+        background-color: blue;
+        z-index: 2;
+      }
+
+      div.box1{
+        position: relative;
+        width: 200px;
+        /* margin: 70px; */
+        height: 300px;
+        /* left:40px; */
+        background-color: rgb(77, 255, 0);
+        display: inline-block;
+
+
+      }
+      div.box2{
+        width: 200px;
+        margin: 30px;
+        height: 300px;
+        background-color: rgb(132, 0, 255);
+        display: inline-block;
+        position: relative;
+        left:120px;
+
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box0">hii am fixed block</div>
+      <div class="box1">hii am not block</div>
+      <div class="box2">hii am not  block</div>
+     
+    </div>
+  </body>
+</html>

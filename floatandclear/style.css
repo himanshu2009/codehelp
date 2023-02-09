@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    border: 3px solid purple;
+    width:900px;
+    margin:33px auto;
+
+
+
+
+}
+.item{
+    border: 3px solid gray;
+    margin: 12px 3px;
+    padding: 12px 3 px ;
+    background-color: rgb(227, 210, 210);
+    
+}
+
+p{
+    font-family:  'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#fruit{
+    float: left;
+    width:49%
+}
+
+#computer{
+    float: right;
+    width:49%
+}
+
+#stationary{
+    /* float: left; */
+    width:100%;
+    clear: left;
+    clear: right;
+    
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 192, 203, 0.637);
+}
+
+.container {
+  height: 400px;
+  /* background-color: red; */
+  border: 1px silid black;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  width: 600px;
+  margin: auto;
+  margin-top: 250px;
+  border-radius: 20px;
+}
+img {
+  float: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+
+  
+}
+.product {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding-left: 326px;
+  padding-top: 22px;
+  /* color: rgb(155, 149, 149); */
+  font-weight: 500;
+  /* font-size: var(--text); */
+  /* color: var(--gray);  */
+   /*css variable: when we have to use our own color*/
+}
+.product_title {
+  padding-left: 326px;
+  font-size: var(--head);
+  font-weight: 700;/*or bold*/
+  font-family: "Fraunces", serif;
+  line-height: 1;
+  margin: 0.6em 0 0.7em 0;
+  font-size: 32px
+}
+
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  width: 96%;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 1.5em;
+  padding-left: 326px;
+}
+
+
+.price{
+  margin-left: 20.3rem;
+}
+.green_text {
+  margin-right: 0.3em;
+  color: green;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+
+.strike {
+  text-decoration: line-through;
+  align-self: center;
+  color:gray;
+}
+.btn{
+  background-color:darkgreen;
+ margin-left: 22px;
+ margin-top:15px;
+ width: 233px;
+ height:40px;
+ border-radius: 10px;
+ color: white;
+ font-weight: bold;
+
+ 
+
+}
+.png{
+  position: relative;
+  left:50px
+}
+
+
+
+
+
+

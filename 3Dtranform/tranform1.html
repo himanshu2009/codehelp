@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+    div{
+        width:200px;
+        height: 200px;
+        background-color: cyan;
+        border: 2px solid black;
+        margin:10px;
+    }
+    .translated{
+        transform: perspective(10px) translateZ(-10px);
+    }
+
+    .scaled{
+        /* transform: perspective(10px)  scale(2) rotateZ(12deg) rotateX(35deg); */
+        transform: rotateZ(150deg);
+    }
+</style>
+</head>
+
+
+<body>
+    <div class="translated">
+
+      <p>hii am box</p>
+
+    </div>
+
+    <div class="scaled">
+        <p>hii am box</p>
+    </div>
+
+    <div class="static">
+        <p>hii am box</p>
+    </div>
+</body>
+</html>
